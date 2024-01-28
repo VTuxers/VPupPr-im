@@ -1,6 +1,7 @@
-# Vpuppr
+# VPupPr-im
 
-VTuber software made with Godot.
+A continuation of a VTuber software made with Godot
+by a glorious low-poly duck Sometimes_Youwin.
 
 Godot 4 rewrite in progress.
 
