@@ -1,7 +1,6 @@
 # VPupPr-im
 
-A continuation of a VTuber software made with Godot
-by a glorious low-poly duck Sometimes_Youwin.
+A continuation of a VTuber software made in the Godot engine by a glorious low-poly duck named Sometimes_Youwin.
 
 Godot 4 rewrite in progress.
 
@@ -19,13 +18,13 @@ General:
 
 Tracking
 
-- [ ] [MediaPipe](https://github.com/google/mediapipe)
 - [x] [iFacialMocap](https://www.ifacialmocap.com/)
 - [x] [MeowFace](https://play.google.com/store/apps/details?id=com.suvidriel.meowface)
 - [x] [VTube Studio](https://denchisoft.com/)
 - [ ] [OpenSeeFace](https://github.com/emilianavt/OpenSeeFace)
 - [ ] [Mouse tracking](https://github.com/virtual-puppet-project/mouse-tracker)
 - [ ] [Lip sync](https://github.com/virtual-puppet-project/real-time-lip-sync-gd)
+- [ ] [MediaPipe](https://github.com/google/mediapipe)
 
 ## Building From Source
 
