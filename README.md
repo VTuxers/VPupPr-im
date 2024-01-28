@@ -19,7 +19,7 @@ General:
 
 Tracking
 
-- [x] [MediaPipe](https://github.com/google/mediapipe)
+- [ ] [MediaPipe](https://github.com/google/mediapipe)
 - [x] [iFacialMocap](https://www.ifacialmocap.com/)
 - [x] [MeowFace](https://play.google.com/store/apps/details?id=com.suvidriel.meowface)
 - [x] [VTube Studio](https://denchisoft.com/)
