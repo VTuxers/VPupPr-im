@@ -89,18 +89,7 @@ func _init(p_runner_data: RunnerData) -> void:
 				r.model = puppet
 			"vrm":
 				_logger.info("Loading vrm")
-				
-				var gltf := GLTFDocument.new()
-				var state := GLTFState.new()
-				
-				_logger.debug("append from file")
-				var err := gltf.append_from_file(model_path, state)
-				if err != OK:
-					_logger.error("Unable to load model from path {0}".format([model_path]))
-					return r
-				
-				_logger.debug("generate scene")
-				var loaded_model: Node = gltf.generate_scene(state)
+				var loaded_model: Node = ModelImporter.import_model_vrm(model_path)
 				if loaded_model == null:
 					_logger.error("Failed to generate scene for model {0}".format([model_path]))
 					return r
